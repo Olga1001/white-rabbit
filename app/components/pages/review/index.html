@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>white rabbit</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">-->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body >
+	<div class="review">
+		<div class="container">
+			<div class="head">
+				<h2 class="title">Оставьте отзыв</h2>
+				<a href="http://m99935yr.beget.tech/rabbit/help.html" class="quetions">?</a>
+			</div>
+			<div class="review__restaurant">
+				<img src="img/img_1.jpg" alt="restaurant" class="review__restaurant-img">
+				<div class="review__restaurant-bottom">
+					<h3 class="title-2 c-white">WHITE RABBIT
+						<span>РЕСТОРАН</span>
+					</h3>
+				</div>
+			</div>
+			<form class="review__content">
+				<div class="d-flex step" id="step-one">
+					<div class="tags">
+						<label class="tags__circle">
+							<input type="checkbox" class="checkbox">
+							<span class="check"></span>
+						</label>
+						<div class="tags__line"></div>
+					</div>
+					<div class="step__info">
+						<h3 class="title-2 title-24">Выберите награду</h3>
+						<p>Выберите один из комплиментов</p>
+						<div class="awards">
+							<div class="awards__row">
+								<label class="awards__item">
+									<input type="radio" name="radio" class="checkbox">
+									<span class="check"></span>
+									<img src="img/img_2.jpg" alt="image">
+									<span class="title-2 c-white awards__item-name">КОФЕ</span>
+								</label>
+								<label class="awards__item">
+									<input type="radio" name="radio" class="checkbox">
+									<span class="check"></span>
+									<img src="img/img_3.jpg" alt="image">
+									<span class="title-2 c-white awards__item-name">ДЕСЕРТ</span>
+								</label>
+								<label class="awards__item">
+									<input type="radio" name="radio" class="checkbox">
+									<span class="check"></span>
+									<img src="img/img_1.jpg" alt="image">
+									<span class="title-2 c-white awards__item-name">КОФЕ</span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex step" id="step-two">
+					<div class="tags">
+						<label class="tags__circle">
+							<input type="checkbox" class="checkbox">
+							<span class="check"></span>
+						</label>
+						<div class="tags__line"></div>
+					</div>
+					<div class="step__info">
+						<h3 class="title-2 title-24">Как вас узнать</h3>
+						<div class="field">
+							<p>Куда принести комплимент</p>
+							<input type="number" placeholder="№ стола" class="input-small" id="input__table-number" required disabled>
+						</div>
+						<div class="field">
+							<p>По какому номеру  сообщить о выигранном дополнительном комплименте от заведения? </p>
+							<input type="number" placeholder="+7" id="input__phone" required disabled>
+						</div>
+						<div class="field">
+							<p>Как вас зовут</p>
+							<input type="text" id="input__name" required disabled>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex step" id="step-tree">
+					<div class="tags">
+						<label class="tags__circle">
+							<input type="checkbox" class="checkbox">
+							<span class="check"></span>
+						</label>
+					</div>
+					<div class="step__info">
+						<h3 class="title-2 title-24">Оцените сервис</h3>
+						<p>Оставьте отзыв на одном из сайтов</p>
+						<div class="d-flex">
+							<button type="button" class="review__btn review__btn-positively" disabled>
+								<img src="img/smile.svg" alt="smile" class="review__btn-img">
+							</button>
+							<button type="button" class="review__btn review__btn-negative" disabled>
+								<img src="img/cry.svg" alt="cry" class="review__btn-img">
+							</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	@import "popups.html"
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bodyScrollLock.js"></script>
+	<script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

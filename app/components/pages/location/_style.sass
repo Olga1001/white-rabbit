@@ -1,0 +1,41 @@
+.location
+  @include width-body
+  text-align: center
+  padding-bottom: 60px
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  p
+    text-transform: uppercase
+  &__restaurant
+    background: linear-gradient(to top, rgba(200,200,200,0) 75%, $color5 100%), url("../img/img_5.jpg") no-repeat center / cover
+    height: 66.66vw
+    max-height: 510px
+    width: 100%
+    .quetions
+      position: absolute
+      right: 15px
+      top: 41px
+      z-index: 2
+      opacity: 0.8
+      color: $color7
+      border-color: $color7
+  &__card
+    max-width: 256px
+    width: 100%
+    margin: -55px auto 30px
+    background: $color7
+    padding: 13px 55px
+    height: 110px
+    border-radius: 7px
+    box-shadow: 0 2px 4px 0 rgba(176,176,176,0.5)
+    display: block
+    &-logo
+      object-fit: contain
+  .title
+    margin: 20px 0 10px
+  .link
+    z-index: 3
+    margin-top: 30px
+

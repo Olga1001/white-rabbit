@@ -1,0 +1,23 @@
+.search
+  padding-bottom: 30px
+.form-search
+  padding: 30px 0
+  min-height: calc(100vh - 30px - 123px)
+  flex-direction: column
+  justify-content: space-between
+  &__input
+    background: url("../img/search.svg") no-repeat left 12px center / 15px
+    padding: 7px 15px 8px 35px
+  &__list
+    margin: 30px 0
+    border-top: 1px solid #E0E0E0
+  &__item
+    line-height: 44px
+    border-bottom: 1px solid #E0E0E0
+    transition: all 0.3s ease
+    padding: 0 20px
+    cursor: pointer
+    &.active, &:hover
+      border-color: transparent
+      border-radius: 3px
+      background-color: rgba(166,188,191,0.47)
